@@ -2,9 +2,11 @@ import os
 
 import requests
 
+
 URL = "http://api.weatherapi.com/?"
 FILTERING = "Kyiv"
 API_KEY = os.getenv("WEATHER_API_KEY")
+
 
 def get_weather() -> None:
     params = {
