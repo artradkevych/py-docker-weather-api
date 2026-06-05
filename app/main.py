@@ -3,8 +3,8 @@ import os
 import requests
 
 
-URL = "http://api.weatherapi.com/?"
-FILTERING = "Kyiv"
+URL = "http://api.weatherapi.com/v1/current.json"
+FILTERING = "Paris"
 API_KEY = os.getenv("WEATHER_API_KEY")
 
 
