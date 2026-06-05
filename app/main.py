@@ -5,7 +5,7 @@ import requests
 
 URL = "http://api.weatherapi.com/v1/current.json"
 FILTERING = "Paris"
-API_KEY = os.getenv("WEATHER_API_KEY")
+API_KEY = os.getenv("API_KEY")
 
 
 def get_weather() -> None:
